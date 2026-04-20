@@ -16,6 +16,15 @@ General parameters:
 - `--disable-opencl`                                Disable OpenCL mining.
 - `--disable-cuda`                                  Disable CUDA mining.
 - `--debug`                                         More information displayed.
+- `--algorithm`                                     Which algorithm to use for mining.
+
+Supported algorithms:
+|Coin|CUDA|OpenCL|CPU | --algorithm    |
+|---------|----|------|---|------------|
+|Hoosat   |YES |YES   |YES| hoohash    |
+|PepePow  |NO  |YES   |YES| pepepow    |
+
+
 
 CPU parameters: 
 - `--cpu-threads <thread-count>`                    Select how many CPU threads to create.
@@ -26,7 +35,8 @@ GPU parameters:
 - `--opencl-o <level>`                              Select OpenCL compile time optimization level (0 no optimizations, 1 basic optimizations, 2 default otimizations, 3 best optimization which might fail).
 - `--gpu-work-multiplier <level>`                   Select multiplier for OpenCL global work size or Nvidia blocks size (0 multiplier is default). 
 
-
 API parameters:
 - `--disable-api`                                   Disables API
 - `--api-port`                                      API Port
+
+
