@@ -3,7 +3,7 @@ Hoominer is [Hoosat Networks](https://network.hoosat.fi) closed source miner for
 
 
 ## Settings
-Welcome to Hoominer v0.3.2
+Welcome to Hoominer v0.4.1
 Usage: ./build/hoominer [--stratum <stratum+tcp://domain:port>] [--user <user>] [--pass <pass>]
 
 General parameters: 
